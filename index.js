@@ -1,3 +1,4 @@
+
 window.addEventListener("message", function (event){
     const data = event.data;
     console.log("Yum", data);
@@ -5,6 +6,7 @@ window.addEventListener("message", function (event){
     if (data === "BS=NEAR")
     {
         this.document.body.style.background = "#df6b6b11";
+
     }
     else if (data === "BS=FAR")
     {
