@@ -1,5 +1,10 @@
  const demo = document.getElementById("demo");
- 
+
+ const consoleOutput = document.getElementById("consoleOutput");
+
+consoleOutput.textContent = `Received: ${data}`;
+console.log("Yum", data);
+
 window.addEventListener("message", function (event){
     const data = event.data;
 
